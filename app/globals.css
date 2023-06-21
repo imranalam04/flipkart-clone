@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel.carousel-slider .control-arrow {
+    background: rgb(46 141 149) !important;
+    height: 40% !important;
+    width: 3% !important;
+    margin-top: 6% !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+.carousel .control-next.control-arrow {
+    right: 0;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    
+}
+
+/* .sidebar {
+    width: 18%;
+    height: 800px;
+    background-color: red;
+    margin-left: 5px;
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+} */
